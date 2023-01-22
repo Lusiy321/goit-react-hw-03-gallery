@@ -64,7 +64,7 @@ export class ImageGallery extends Component {
   render() {
     const { pictures, status, error } = this.state;
     if (status === 'idle') {
-      return <h2>Enter name</h2>;
+      return <h2>Hey! Enter the pictures name</h2>;
     }
 
     if (status === 'resolved') {
